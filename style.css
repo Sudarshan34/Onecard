@@ -1,0 +1,298 @@
+@import "https://fonts.googleapis.com/css2?family=Manrope&display=swap";
+
+
+body{
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: manrope,sans-serif;
+}
+
+
+/* start of nav bar */
+
+.navigation{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    /* margin-bottom: 1000px; */
+}
+
+.logo{
+    margin-left: 200px;
+}
+
+.home{
+    margin-left: 200px;
+}
+
+.navigation div > a{
+    margin-right: 30px;
+    /* padding: 10px; */
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+   
+}
+
+
+/* .apply{
+   padding-bottom: 50px;
+} */
+.apply button{
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1893f7;
+    cursor: pointer;
+    border: 2px solid white;
+    width: 100px;
+
+}
+
+
+/* end of nav bar */
+
+
+/* intro start */
+.info{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.hi{
+    font-size: 30px;
+    margin-bottom: -50px;
+}
+
+.onecard h1{
+    color:#1893f7 ;
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+
+.brand{
+    color: #1893f7;
+    font-weight: bold;
+}
+
+.btn1 button{
+    background-color: #17a2b8;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+
+.btn1 i{
+    padding: 5px;
+}
+
+
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+/* intro end */
+
+
+/* about card start  */
+.about_Card{
+    background-color: black;
+}
+
+.about_Card{
+    /* color: white; */
+    text-align: center;
+    padding: 15px;
+}
+
+
+.hidden{
+    font-size: 70px;
+    /* text-decoration-color:linear-gradient(92deg,#217ee6 3%,#3187d5 44%,#69a798 70%,#fcf2a6 95%);  */
+    color: #17a2b8;
+}
+
+.joining,.annual,.rewards{
+    color: white;
+}
+
+/* about card end  */
+
+/* mobile app start */
+
+
+.powerful{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+}
+.vdo1 video{
+    width: 500px;
+    margin-left: 200px;
+}
+
+.mobile{
+    text-align: end ;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+
+.para2 p strong{
+    font-size: 60px ;
+    font-weight: 600;
+    color: black;
+}
+
+.para2 p{
+    color: rgb(137, 137, 137);
+    font-size: 25px;
+}
+
+/* end of mobile app */
+
+/* start of metal */
+
+.img2 img{
+      margin-left: 50px;
+}
+
+
+.para3{
+    margin-left: 50px;
+   
+}
+.para3 p strong{
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+}
+
+
+.para3 p{
+    color:rgb(130, 129, 129) ;
+    font-size: 25px;
+}
+
+ .metal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(245, 239, 239);
+    padding: 100px;
+} 
+
+/* .card{
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 100%;
+} */
+
+
+.vdo2 video{
+    width: 500px;
+ 
+}
+
+/* end of metal */
+
+/* start of seamless */
+
+.vdo3 video{
+    width: 500px;
+}
+
+
+.seamless{
+    justify-content: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  
+}
+
+
+.lm{
+    background-color:#1893f7 ;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+}
+
+/* start of from our blog */
+.from{
+    text-align: center;
+    font-size: 35px;
+}
+
+.from strong{
+    color: #1893f7;
+}
+
+.latest{
+    margin-left: 200px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* padding: 100px; */
+    margin: 0px 100px 0px 100px;
+}
+
+.images a{
+    text-decoration: none;
+  
+
+}
+
+
+.july{
+    color: rgb(115, 114, 114);
+    padding-left: 20px;
+}
+
+.p1{
+    color: rgb(55, 55, 55);
+    padding-left: 20px;
+}
+
+.b1{
+    text-align: center;
+    padding: 30px;
+}
+
+.b1 button{
+    color: white;
+    background-color: #1893f7;
+    width: 130px ;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
